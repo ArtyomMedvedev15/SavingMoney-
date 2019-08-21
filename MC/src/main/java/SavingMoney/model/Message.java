@@ -1,4 +1,4 @@
-package WorkMoneyCash.MC.model;
+package SavingMoney.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonView;

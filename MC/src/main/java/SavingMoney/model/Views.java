@@ -1,4 +1,4 @@
-package WorkMoneyCash.MC.model;
+package SavingMoney.model;
 
 public class Views {
 

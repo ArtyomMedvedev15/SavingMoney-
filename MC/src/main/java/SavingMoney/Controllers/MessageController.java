@@ -1,8 +1,8 @@
-package WorkMoneyCash.MC.Controllers;
+package SavingMoney.Controllers;
 
-import WorkMoneyCash.MC.model.Message;
-import WorkMoneyCash.MC.model.Views;
-import WorkMoneyCash.MC.repositorys.MessageRepo;
+import SavingMoney.model.Message;
+import SavingMoney.model.Views;
+import SavingMoney.repo.MessageRepo;
 import com.fasterxml.jackson.annotation.JsonView;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
