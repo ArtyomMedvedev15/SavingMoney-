@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a92de6ff-4670-4e92-a380-f485000efed4" name="Default Changelist" comment="Add webpack config it add yarn add lib create vue component and pages&#10;\">
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_websocket_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_messaging_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_websocket_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SavingMoney/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/util/collections.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/util/ws.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/MC.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MC.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/MC.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MC.test.iml" afterDir="false" />
+    <list default="true" id="a92de6ff-4670-4e92-a380-f485000efed4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/util/ws.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/util/ws.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="225">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -110,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/util/ws.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -119,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -152,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="374">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,7 +187,6 @@
         <option value="$PROJECT_DIR$/src/main/java/SavingMoney/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/session_tables.sql" />
         <option value="$PROJECT_DIR$/src/main/java/SavingMoney/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/asd.vue" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/z.vue" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
@@ -216,12 +200,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/a.vue" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/sa.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/util/collections.js" />
         <option value="$PROJECT_DIR$/src/main/java/SavingMoney/config/WebSocketConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/util/ws.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue" />
+        <option value="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/util/ws.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
       </list>
     </option>
   </component>
@@ -232,8 +217,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-25" />
-    <option name="y" value="120" />
+    <option name="x" value="55" />
+    <option name="y" value="147" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -443,7 +428,7 @@
       <workItem from="1566595671759" duration="42000" />
       <workItem from="1566595730747" duration="41000" />
       <workItem from="1566595795032" duration="1499000" />
-      <workItem from="1566597321614" duration="1517000" />
+      <workItem from="1566597321614" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="Edit(but rework id)">
       <created>1564413704652</created>
@@ -487,11 +472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566520284527</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Connection WebSocket add StompJS SockJS  and config it add additional hook for created components">
+      <created>1566598932589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566598932589</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25772000" />
+    <option name="totallyTimeSpent" value="26838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,10 +495,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="540" y="137" width="1152" height="620" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30402932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -634,7 +626,8 @@
     <MESSAGE value="Auth2 with helps Google account" />
     <MESSAGE value="Additional configuration for Google Auth and add Spring Session" />
     <MESSAGE value="Add webpack config it add yarn add lib create vue component and pages&#10;\" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add webpack config it add yarn add lib create vue component and pages&#10;\" />
+    <MESSAGE value="Connection WebSocket add StompJS SockJS  and config it add additional hook for created components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connection WebSocket add StompJS SockJS  and config it add additional hook for created components" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/39768bbd-8ce1-4153-9f14-4411dac9c392/console.sql">
@@ -763,32 +756,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SavingMoney/config/WebSocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -824,20 +797,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/util/ws.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

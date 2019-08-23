@@ -1,11 +1,13 @@
 import SockJS from 'sockjs-client'
 import { Stomp } from '@stomp/stompjs'
-var stompClient = null
+let stompClient = null
 const handlers =  []
 
 export function connect() {
     const socket = new SockJS('/gs-guide-websocket')
     stompClient = Stomp.over(socket)
+    //This is field turn off log in Stopmp
+    stompClient.debug=()=>{}
     stompClient.connect({}, function (frame) {
         console.log('Connected: ' + frame)
         stompClient.subscribe('/topic/activity', message=>{
