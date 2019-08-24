@@ -1,11 +1,19 @@
 <template>
-        <div>
-            <div v-if="!profile">Need to auth with <a href="/login">Google</a></div>
-            <div v-else >
-                <div>{{profile.name}}&nbsp;<a href="/logout">Exit</a></div>
-                <message-list :messages="messages"/>
-             </div>
-        </div>
+        <v-app>
+       <v-app-bar app>
+                SavingMoney
+               {{profile.name}}
+               <a href="/logout">Exit</a>
+        </v-app-bar app>
+        <v-content>
+               <div v-if="!profile">Need to auth with <a href="/login">Google</a>
+               </div>
+               <div>
+                     <message-list :messages="messages"/>
+               </div>
+        </v-content>
+
+        </v-app>
 </template>
 
 <script>
@@ -35,6 +43,6 @@ export default {
  }
 </script>
 
-<style scoped>
+<style>
 
 </style>
