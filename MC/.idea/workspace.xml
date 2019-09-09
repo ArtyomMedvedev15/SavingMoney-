@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a92de6ff-4670-4e92-a380-f485000efed4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/util/ws.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/MC.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MC.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/components/messages/MessageForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/components/messages/MessageForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/components/messages/MessageList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/components/messages/MessageList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/components/messages/MessageRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/components/messages/MessageRow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/pages/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/pages/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageRow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageRow.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,38 +60,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/util/collections.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/util/ws.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageList.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -93,25 +72,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SavingMoney/config/WebSocketConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageList.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="816">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageRow.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -119,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MessageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="28" />
+            <state relative-caret-position="725">
+              <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -171,27 +180,29 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/z.vue" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/Apps.vue" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageRow.vue" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageList.vue" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/a.vue" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/sa.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/util/collections.js" />
         <option value="$PROJECT_DIR$/src/main/java/SavingMoney/config/WebSocketConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue" />
         <option value="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/util/collections.js" />
         <option value="$PROJECT_DIR$/src/main/java/SavingMoney/config/WebSocketConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue" />
         <option value="$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MessageController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/util/ws.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/util/ws.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/util/vuetify.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/plugin/vuetify.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageRow.vue" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageList.vue" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" />
       </list>
     </option>
   </component>
@@ -202,10 +213,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-25" />
-    <option name="y" value="120" />
     <option name="x" value="55" />
-    <option name="y" value="147" />
+    <option name="y" value="145" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -223,16 +232,6 @@
             <path>
               <item name="MC" type="b2602c69:ProjectViewProjectNode" />
               <item name="MC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="MC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MC" type="b2602c69:ProjectViewProjectNode" />
@@ -317,15 +316,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -363,10 +353,10 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -453,6 +443,10 @@
       <workItem from="1566595795032" duration="1499000" />
       <workItem from="1566597321614" duration="1517000" />
       <workItem from="1566597321614" duration="2583000" />
+      <workItem from="1567438496973" duration="192000" />
+      <workItem from="1567500495013" duration="207000" />
+      <workItem from="1567599823792" duration="1129000" />
+      <workItem from="1568034852090" duration="1407000" />
     </task>
     <task id="LOCAL-00001" summary="Edit(but rework id)">
       <created>1564413704652</created>
@@ -496,11 +490,32 @@
       <option name="project" value="LOCAL" />
       <updated>1566520284527</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix async edit">
+      <created>1566601695583</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566601695583</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add vuetify and config it">
+      <created>1566655828507</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566655828507</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add design for all components">
+      <created>1566660346577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566660346577</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27589000" />
+    <option name="totallyTimeSpent" value="42927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,7 +530,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23624161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -526,15 +541,15 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966443" weight="0.611898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597314" weight="0.5878187" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49798658" weight="0.60764873" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49395972" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49261746" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5033557" side_tool="true" weight="0.611898" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402683" side_tool="true" weight="0.5878187" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
@@ -594,6 +609,69 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VApp/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VApp/VApp.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VOverflowBtn/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VOverflowBtn/VOverflowBtn.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTextField/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTextField/VTextField.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VDialog/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VDialog/VDialog.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VForm/VForm.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VForm/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VGrid/VFlex.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VGrid/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VGrid/VLayout.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VGrid/grid.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VGrid/VContainer.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VDataTable/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VDataTable/VDataTable.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VDataTable/VEditDialog.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VCheckbox/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VCheckbox/VCheckbox.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VSlider/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VSlider/VSlider.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VDataIterator/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VDataIterator/VDataIterator.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTextarea/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTextarea/VTextarea.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VMenu/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VMenu/VMenu.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VCombobox/VCombobox.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VCombobox/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTooltip/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTooltip/VTooltip.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VBottomSheet/VBottomSheet.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VBottomSheet/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTabs/VTabs.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTabs/VTabsItems.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTabs/VTabItem.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTabs/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTabs/VTabsSlider.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VTabs/VTab.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VRangeSlider/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VRangeSlider/VRangeSlider.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VSwitch/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VSwitch/VSwitch.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VSpeedDial/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VSpeedDial/VSpeedDial.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VRadioGroup/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VRadioGroup/VRadio.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VRadioGroup/VRadioGroup.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/transitions/expand-transition.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/transitions/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VFooter/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VFooter/VFooter.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VAutocomplete/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VAutocomplete/VAutocomplete.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VDatePicker/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VSelect/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VSelect/VSelect.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuetify/src/components/VSelect/VSelectList.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -646,7 +724,9 @@
     <MESSAGE value="Connection WebSocket add StompJS SockJS  and config it add additional hook for created components" />
     <MESSAGE value="Merge branch 'master' of github.com:Tim01Bro/MC&#10;&#10;# Conflicts:&#10;#&#9;MC/.idea/modules/MC.main.iml&#10;#&#9;MC/.idea/workspace.xml&#10;&#10;Fix asyns edit" />
     <MESSAGE value="Fix async edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix async edit" />
+    <MESSAGE value="Add vuetify and config it" />
+    <MESSAGE value="Add design for all components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add design for all components" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/39768bbd-8ce1-4153-9f14-4411dac9c392/console.sql">
@@ -730,37 +810,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/Apps.vue" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageRow.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/a.vue" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/sa.vue" />
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -768,36 +820,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue" />
     <entry file="file://$PROJECT_DIR$/src/main/java/WorkMoneyCash/MC/McApplication.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="984" column="19" selection-start-line="984" selection-start-column="19" selection-end-line="984" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/util/collections.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -821,23 +848,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/util/ws.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/util/collections.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn-error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/util/vtf.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/plugin/vuetify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#27#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SavingMoney/Controllers/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageList.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/util/ws.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/pages/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="119">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageRow.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/components/messages/MessageForm.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -899,7 +1006,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

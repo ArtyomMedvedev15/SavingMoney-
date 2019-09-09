@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th = "http://www.thymeleaf.org">
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
+
     <meta charset="UTF-8">
-    <title>SaveMoney</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+     <title>SaveMoney</title>
     <!-- версия для разработки, включает отображение полезных предупреждений в консоли -->
 
     <script th:inline="javascript">
@@ -10,9 +13,9 @@
     </script>
 </head>
 <body>
-<h3>SaveMoney</h3>
-<div id="app"></div>
+ <div id="app"></div>
 
-<script th:src="${isDevMode} ? 'http://localhost:8000/main.js' : '/js/main.js'"></script>
+ <script th:src="${isDevMode} ? 'http://localhost:8000/main.js' : '/js/main.js'"></script>
+
 </body>
 </html>

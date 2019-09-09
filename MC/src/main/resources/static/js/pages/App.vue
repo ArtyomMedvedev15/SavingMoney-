@@ -1,11 +1,22 @@
 <template>
-        <div>
-            <div v-if="!profile">Need to auth with <a href="/login">Google</a></div>
-            <div v-else >
-                <div>{{profile.name}}&nbsp;<a href="/logout">Exit</a></div>
-                <message-list :messages="messages"/>
-             </div>
-        </div>
+       <v-app>
+       <v-app-bar app>
+                <v-toolbar-title>SavingMoney</v-toolbar-title>
+                <div class="flex-grow-1"></div>
+                <span v-if="profile">{{profile.name}}</span>
+                <v-btn v-if="profile" href="/logout" icon>
+                       <v-icon>E</v-icon>
+               </v-btn>
+        </v-app-bar app>
+        <v-content>
+               <v-container v-if="!profile">Need to auth with <a href="/login">Google</a>
+               </v-container>
+               <v-container v-if="profile">
+                     <message-list :messages="messages"/>
+               </v-container>
+        </v-content>
+
+        </v-app>
 </template>
 
 <script>
@@ -35,6 +46,6 @@ export default {
  }
 </script>
 
-<style scoped>
+<style>
 
 </style>
