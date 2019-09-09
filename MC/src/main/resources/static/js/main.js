@@ -5,6 +5,7 @@ import {connect} from './util/ws'
 import  vuetify  from './plugin/vuetify'
 import 'vuetify/dist/vuetify.min.css'
 
+
 //this is for check profile and itfield not null
 if(frontendData.profile) {
     connect()

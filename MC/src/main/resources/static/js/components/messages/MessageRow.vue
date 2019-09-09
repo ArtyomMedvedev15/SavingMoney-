@@ -4,12 +4,10 @@
                 <i>({{ message.id }})</i> {{ message.text }}
             </v-card-text>
             <v-card-actions>
-                <v-btn @click="edit" small rounded>
-                E
-                </v-btn>
-                <v-btn  @click="del" small>
-                D
-                </v-btn>
+                <v-btn value="Edit" @click="edit" small>Edit</v-btn>
+                           <v-btn icon @click="del" small>
+                               <v-icon>delete</v-icon>
+                           </v-btn>
             </v-card-actions>
         </v-card>
 </template>
@@ -28,6 +26,6 @@
     }
 </script>
 
-<style scoped>
+<style>
 
 </style>
